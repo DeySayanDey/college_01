@@ -1,0 +1,238 @@
+/* Styling for the overall body of the webpage */
+body {
+    width: 100vw; /* Set the width of the body to the full viewport width */
+    height: 100%; /* Set the height of the body to full height of the viewport */
+    background-color: hsla(57, 75%, 66%, 0.753); /* Background color with HSLA values */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* Styling for the main body section */
+#mainBody {
+    position: relative; /* Set the positioning context for child elements */
+    width: 900px; /* Set fixed width */
+    height: 770px; /* Set fixed height */
+    margin-top: 20px; /* Add top margin */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* Styling for the header section */
+.headerSection {
+    width: 100%; /* Occupy full width */
+    height: 22%; /* Set fixed height */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    background-color: #c0ff43dd; /* Background color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: right; /* Align items to the right */
+}
+
+/* Styling for the web heading */
+.webHeading {
+    margin-top: 5vh; /* Set top margin */
+    margin-right: 10vw; /* Set right margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Specify font family */
+
+    text-decoration: none; /* Remove underline */
+}
+.webHeadingDecoration {
+    padding: 0px;
+    margin: 0px;
+    /* border: 2px solid red; */
+}
+
+/* for create refresable page using click logo */
+.webHeadingDecoration a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Styling for the content inside the main body */
+.insideMainBody {
+    margin-top: 7px; /* Set top margin */
+    height: 78%; /* Occupy remaining height */
+    background-color: rgba(240, 248, 255, 0.731); /* Background color with alpha */
+}
+
+/* Styling for the navigation section */
+nav {
+    margin: 0; /* Remove default margin */
+    padding: 8px; /* Add padding */
+    flex-direction: row; /* Arrange items horizontally */
+}
+
+/* Styling for navigation items */
+.navItem {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    background-color: rgba(210, 212, 214, 0.731); /* Background color with alpha */
+}
+
+/* Styling for navigation item list */
+.navItem li {
+    list-style: none; /* Remove bullet points */
+    margin-top: 5px; /* Set top margin */
+    margin-bottom: 5px; /* Set bottom margin */
+    height: 40px; /* Set fixed height */
+    width: 16%; /* Set width */
+}
+
+/* Styling for navigation links */
+.navItem li a {
+    display: block; /* Make links block elements */
+    width: 100%; /* Occupy full width */
+    height: 100%; /* Occupy full height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: #000000; /* Text color */
+    font-size: 15px; /* Font size */
+    text-decoration: none; /* Remove underline */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Specify font family */
+}
+
+/* Styling for navigation links on hover and active state */
+.navItem li a:hover,
+.active {
+    background-color: rgba(193, 193, 196, 0.731); /* Background color with alpha */
+}
+
+/* Styling for the side navigation */
+.sideNav {
+    position: relative; /* Positioning relative to the nearest positioned ancestor */
+    float: left; /* Float to the left */
+    height: 80%; /* Set height */
+    width: 28%; /* Set width */
+    border-right: 4px solid hsla(57, 75%, 66%, 0.301); /* Border on the right */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column;/* Arrange items vertically */
+}
+
+/* Styling for side navigation boxes */
+.sideNavBox {
+    width: 95%; /* Set width */
+    height: 50%; /* Set height */
+    margin: 4px; /* Add margin */
+    padding: 2px; /* Add padding */
+}
+
+/* Styling for side navigation heading */
+.sideNavHeading {
+    margin: 4px; /* Add margin */
+    text-align: center; /* Center text */
+    font-size: 20px; /* Set font size */
+    padding: 5px; /* Add padding */
+    background-color: #b6d577dd; /* Background color */
+}
+
+/* Styling for menu items in side navigation */
+.menuItem li {
+    padding: 2px; /* Add padding */
+}
+
+/* Styling for menu item links in side navigation */
+.menuItem li a {
+    text-decoration: none; /* Remove underline */
+    color: #000000; /* Text color */
+}
+
+/* hover efect for menu item links in side nevigation */
+.menuItem li :hover{
+    color: #625353d7;
+}
+
+/* Styling for content in the 2nd side navigation */
+.contentSecondSideNav {
+    margin: 4px; /* Add margin */
+    text-align: justify; /* Justify text */
+}
+
+/* Styling for the main content section */
+.mainContent {
+    width: 68%; /* Set width */
+    height: 85%; /* Set height */
+    position: relative; /* Set position to relative */
+    float: right; /* Float to the right */
+    top: 0; /* Align to the top */
+    padding: 5px; /* Add padding */
+    margin: 5px; /* Add margin */
+}
+
+/* Styling for main content heading */
+.mainContentHeading {
+    font-size: 30px; /* Set font size */
+    font-family: Arial, Helvetica, sans-serif; /* Specify font family */
+}
+
+/* Styling for main content paragraphs */
+.mainContentParagraph {
+    margin: 0; /* Remove default margin */
+    padding: 2px; /* Add padding */
+}
+
+/* Styling for paragraphs */
+p {
+    font-family: Arial, Helvetica, sans-serif; /* Specify font family */
+}
+
+/* Styling for sub boxes in main content */
+.mainContentSubBoxes {
+    height: 50%; /* Set height */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: start; /* Align items to the top */
+    margin-top: 40px; /* Add top margin */
+    padding-bottom: 30px; /* Add bottom padding */
+}
+
+/* Styling for individual sub boxes in main content */
+.mainContentSubBox {
+    border: transparent solid; /* Set border */
+    width: 50%; /* Set width */
+    height: 100%; /* Set height */
+    margin: 2px; /* Add margin */
+    top: 122px;
+
+}
+
+/* Styling for specific sub box */
+#mainContentSubBox1 {
+    border-right: 2px solid #b6d577dd; /* Right border */
+}
+
+/* Styling for links in sub boxes */
+.mainContentSubBox a {
+    border: 0.1px solid #000; /* Set border */
+    background-color: #c0ff43dd; /* Background color */
+    padding: 7px; /* Add padding */
+    
+    text-decoration: none; /* Remove underline */
+}
+
+/* Styling for read more button in sub boxes */
+.mainContentSubBox .readMoreButton :hover{
+    background-color: #77a31fdd; /* Background color on hover */
+}
+
+/* Styling for footer text */
+footer {
+    background-color: #c0ff43dd; /* Background color */
+    font-size: 18px; /* Set font size */
+    padding: 20px; /*Add padding */
+    margin: 0px 10px 0px 10px; /* add margin*/
+    text-align: center; /* Center text */
+    position: absolute; /* Position absolutely */
+    right: 0; /* Align to the right */
+    left: 0; /* Align to the left */
+    bottom: 0; /* Align to the bottom */
+}
